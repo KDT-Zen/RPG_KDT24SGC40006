@@ -27,7 +27,10 @@ void GameManager::Update() {
 	case INGAME:
 		break;
 
-	case RESULT:
+	case RESULT_PLAYER_WIN:
+		break;
+
+	case RESULT_ENEMY_WIN:
 		break;
 
 	}

@@ -18,7 +18,8 @@
 enum GameMode {
 	TITLE,
 	INGAME,
-	RESULT
+	RESULT_PLAYER_WIN,
+	RESULT_ENEMY_WIN
 };
 
 class GameManager {
