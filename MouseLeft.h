@@ -41,7 +41,7 @@ private:
 	//　コンストラクタをprivateにして外部で作れないようにする
 	 MouseLeft() = default;
 
-	~MouseLeft() = default;
+	virtual~MouseLeft() = default;
 
 
 

@@ -43,18 +43,13 @@ private:
 //　コンストラクタをprivateにして外部で作れないようにする
 	MouseRight() = default;
 
-	~MouseRight() = default;
-
-	
-
+	virtual~MouseRight() = default;
 
 
 	//コピーと代入も禁止にする
 	MouseRight(const MouseRight&) = delete;
 
 	MouseRight& operator= (const MouseRight&) = delete;
-
-
 
 
 	//　１フレーム前のボタンの状態を保持する変数
